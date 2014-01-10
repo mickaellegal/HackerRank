@@ -1,4 +1,3 @@
-# Importing the libraries
 
 # Importing the libraries
 
