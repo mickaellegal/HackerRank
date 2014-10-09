@@ -32,6 +32,8 @@ def median(data):
 #####################
 
 def mode(data):
+	
+
     #return max(set(data), key=data.count)
     # data_dic = {}
     
@@ -49,6 +51,7 @@ def mode(data):
 	
 	input = Counter(data)
     common = input.most_common()
+    
     most_common = set(x for x, count in common if count == common[0][1])
     return min(most_common)
 
